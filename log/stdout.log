@@ -1,0 +1,11 @@
+{ _:
+   [ 'file:////var/folders/2y/kl0jsnhj2jg3r7pq48dz6vk40000gn/T/wicked_pdf20180801-19767-1452wt5.html',
+     '/var/folders/2y/kl0jsnhj2jg3r7pq48dz6vk40000gn/T/wicked_pdf_generated_file20180801-19767-obaj2c.pdf' ],
+  q: true,
+  encoding: 'utf-8',
+  'margin-top': 15,
+  'margin-bottom': 70,
+  'margin-left': 15,
+  'footer-spacing': 0,
+  'footer-html':
+   'file:////var/folders/2y/kl0jsnhj2jg3r7pq48dz6vk40000gn/T/wicked_footer_pdf20180801-19767-1fntg1w.html' }

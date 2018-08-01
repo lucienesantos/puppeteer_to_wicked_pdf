@@ -1,0 +1,8 @@
+{
+    "name": "puppeteer_to_wicked_pdf",
+    "dependencies": {
+        "fs-extra": "^6.0.1",
+        "minimist": "",
+        "puppeteer": ""
+    }
+}
