@@ -6,13 +6,10 @@ It is compost by aplication puppeteer_to_wicked_pdf and a script wkinnode that r
 
 ### Prerequisites
 
-```
- NodeJS 
-```
 
-```
- Wicked_pdf
-```
+ * NodeJS 
+ * Wicked_pdf
+
 ### Development
 
 1.Install nodejs
