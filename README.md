@@ -32,7 +32,7 @@ It is compost by aplication puppeteer_to_wicked_pdf and a script wkinnode that r
 
  
  
- ### Development
+ ### Production
 
 1. Install nodejs
 
