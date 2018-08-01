@@ -1,1 +1,1 @@
-# puppeteer_to_wicked_pdf
+# Puppeteer to Wicked_pdf
