@@ -18,15 +18,12 @@ This application should be used to convert HTML to PDF using wicked_pdf with pup
    ```
    gem 'wicked_pdf', :git => 'https://github.com/lucienesantos/wicked_pdf'
    ```
-3. Download the puppeteer_to_wicked_pdf Project in the user's home folder.
+3. Clone the puppeteer_to_wicked_pdf Project in the user's home folder.
 
    ```
    https://github.com/lucienesantos/puppeteer_to_wicked_pdf
    ``` 
-4. Install the node_modules in folder `~/puppetee_to_wicked_pdf`
-   ```
-   npm install
-   ``` 
+4. Run `npm install` on ~/puppeteer_to_wicked_pdf folder
 
 5. Copy the wkinnode script into the /usr/bin/local
 
@@ -45,16 +42,19 @@ This application should be used to convert HTML to PDF using wicked_pdf with pup
    ```
    https://github.com/lucienesantos/puppeteer_to_wicked_pdf
    ``` 
-4. Install the node_modules in folder `~/puppetee_to_wicked_pdf`
-   ```
-   npm install
-   ``` 
+4. Run `npm install` on ~/puppeteer_to_wicked_pdf folder
 
 5. Copy the wkinnode script into the /usr/bin/
 
-6. Install dependences
+6. Run `chmod +x /usr/bin/`
+
+7. Install dependences
    ```
    sudo apt-get install libpangocairo-1.0-0 libx11-xcb1 libxcomposite1 libxcursor1 libxdamage1 libxi6 libxtst6 libnss3 libcups2 libxss1 libxrandr2 libgconf2-4 libasound2 libatk1.0-0 libgtk-3-0
    ```
+   
+   
+   
+   
 
 
