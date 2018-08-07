@@ -24,6 +24,7 @@ logger.log(args);
         format: 'A4',
         printBackground: true,
         displayHeaderFooter: true,
+        landscape: (args['orientation'] != undefined && args['orientation'] == 'Landscape'),
         footerTemplate: footerContent,
         margin: {
             top: args['margin-top'] || 0,
