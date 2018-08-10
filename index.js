@@ -7,9 +7,14 @@ const args = require('minimist')(process.argv.slice(2));
 const output = fs.createWriteStream(`${__dirname}/log/stdout.log`);
 const errorOutput = fs.createWriteStream(`${__dirname}/log/stderr.log`);
 const logger = new Console({ stdout: output, stderr: errorOutput })
-logger.log(args);
+
+if (args.V) {
+    console.log("0.0.1");
+    return;
+}
 
 (async () => {
+    logger.log(args);
     const HTML = args['_'][0];
     const PDF_OUT = args['_'][1];
 
