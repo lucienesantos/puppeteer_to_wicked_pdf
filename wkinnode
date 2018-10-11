@@ -1,0 +1,2 @@
+#!/bin/bash
+node ~/puppeteer_to_wicked_pdf/index.js "$@"
