@@ -1,3 +1,11 @@
+var extract_html_path = function(args) {
+  return args["_"][0].includes(".html") ? args["_"][0] : args.q;
+};
+
+var extract_pdf_path = function(args) {
+  return args["_"][0].includes(".pdf") ? args["_"][0] : args["_"][1];
+};
+
 const {Console} = require("console");
 const fs = require("fs");
 const fse = require("fs-extra");
@@ -17,7 +25,8 @@ if (args.V) {
   logger.log(args);
 
   try {
-    const PDF_OUT = args["_"][0];
+    const HTML = extract_html_path(args);
+    const PDF_OUT = extract_pdf_path(args);
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
 
@@ -27,7 +36,7 @@ if (args.V) {
       : "";
     const isLandscape =
       args["orientation"] != undefined && args["orientation"] == "Landscape";
-    await page.goto(args.q, {waitUntil: "networkidle2"});
+    await page.goto(HTML, {waitUntil: "networkidle2"});
     await page.emulateMedia("screen");
 
     if (isLandscape) {
